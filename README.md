@@ -26,12 +26,14 @@ The tool is specifically tuned to recognize and suggest fixes for **Oracle Datab
 
 ### Prerequisites
 1. Clone this repository:
+   ```bash
    git clone [https://github.com/TWOJA-NAZWA-UZYTKOWNIKA/ai-log-diagnostic-tool.git](https://github.com/TWOJA-NAZWA-UZYTKOWNIKA/ai-log-diagnostic-tool.git)
    cd ai-log-diagnostic-tool
 2. Build the Docker image:
    ```bash
    docker build -t ai-log-analyzer .
 3. Run the container:
+   ```bash
    docker run ai-log-analyzer
 
 ## 📈 Key Features Demonstrated
