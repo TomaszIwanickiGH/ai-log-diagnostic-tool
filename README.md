@@ -20,7 +20,7 @@ The tool is specifically tuned to recognize and suggest fixes for **Oracle Datab
 2. Pull the Llama 3 model:
    ```bash
    ollama run llama3
-3. Install Docker Desktop
+3. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ## Installation & Running
 
@@ -36,7 +36,7 @@ The tool is specifically tuned to recognize and suggest fixes for **Oracle Datab
    ```bash
    docker run ai-log-analyzer
 
-## 📈 Key Features Demonstrated
+## Key Features Demonstrated
 - **Docker Networking:** Successfully implemented container-to-host communication using `host.docker.internal`.
 - **AI Integration:** Practical usage of LLMs for technical diagnostic tasks.
 - **Oracle DB Troubleshooting:** Tailored analysis for common database connectivity issues.
